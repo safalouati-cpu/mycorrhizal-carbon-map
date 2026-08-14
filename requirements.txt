@@ -1,0 +1,15 @@
+rasterio
+geopandas
+xarray
+rioxarray
+shapely
+pyproj
+scikit-learn
+xgboost
+shap
+pandas
+numpy
+matplotlib
+seaborn
+folium
+requests
