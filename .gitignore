@@ -10,3 +10,5 @@ __pycache__/
 outputs/*.png
 
 !data/processed/*.csv
+
+!data/processed/*.csv
