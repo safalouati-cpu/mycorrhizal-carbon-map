@@ -12,3 +12,5 @@ outputs/*.png
 !data/processed/*.csv
 
 !data/processed/*.csv
+
+!data/processed/*.csv
