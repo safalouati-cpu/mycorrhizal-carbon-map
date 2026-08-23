@@ -18,3 +18,5 @@ outputs/*.png
 !data/processed/*.csv
 
 !data/processed/*.csv
+
+!outputs/shap_*.png
