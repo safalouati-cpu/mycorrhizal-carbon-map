@@ -10,7 +10,3 @@ __pycache__/
 .venv/
 outputs/*.png
 !outputs/shap_*.png
-
-!data/processed/*.csv
-
-!outputs/shap_*.png
