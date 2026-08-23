@@ -5,10 +5,17 @@ climate, and land-use data — flagging high fungal-carbon-value regions that
 currently sit outside protected areas.
 
 ## Data sources
-- SPUN — AM fungal network density (target variable): https://www.spun.earth/mapping/a-hidden-infrastructure
-- SoilGrids — soil properties (pH, carbon, texture): https://soilgrids.org
-- WorldClim — bioclimatic variables: https://www.worldclim.org
-- ESA WorldCover — land-use/land-cover classes: https://esa-worldcover.org
+- Stewart et al. 2026, *Science* — AM fungal hyphal density (target variable) and pre-joined
+  environmental covariates (CHELSA climate, SoilGrids soil properties, EarthEnv topography,
+  MODIS NPP, human modification index, biome classification), via public Dryad deposit:
+  https://doi.org/10.5061/dryad.p2ngf1w1f
+- SPUN Underground Atlas (project inspiration, not a direct data source used):
+  https://www.spun.earth/mapping/a-hidden-infrastructure
+- ESA WorldCover — land cover raster, included in the Dryad deposit: https://esa-worldcover.org
+
+Note: SoilGrids and WorldClim were originally planned as separate downloads, but were not
+needed directly — the Dryad dataset already included pre-extracted covariates from these
+sources, joined to each field sample.
 
 ## Project structure
 ```
